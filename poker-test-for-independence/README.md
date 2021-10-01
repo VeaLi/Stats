@@ -3,17 +3,18 @@
 
 Treats random numbers (in bins) as hands with r different cards and compares the expected occurrence of r cards with the expected one using chi2 test.
 
-
     Example
     ----------
-    >>> pt = PokerRandomnessTest(4, 10)
+    >>> from approximated_poker_test import ApproximatedPokerTest
+    >>> pt = ApproximatedPokerTest(4,10)
+    >>> import numpy as np
     >>> pt.test(np.random.uniform(size=10000))
     observed~expected
-    9~10
-    609~630
-    4291~4320
-    5091~5040
-    (1.5107473544973424, 0.6797920772484682)
+    8~10
+    589~630
+    4309~4320
+    5094~5040
+    (3.674834656084651, 0.29878447375220785)
     
 References
 ----------
