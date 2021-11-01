@@ -1,2 +1,12 @@
-Approximated Poker Test of independence of U(0, 1) random numbers
-Triangular random number generator, inversion method
+Test for Randomness:
+
+* Approximated poker test for independence
+
+Generating random samples:
+
+* Inversion method
+* Method of approximations
+* Rejection method
+---
+* Quadratic congruent random number generator
+* Freedman–Diaconis rule
