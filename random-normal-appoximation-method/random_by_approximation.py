@@ -3,12 +3,12 @@ import numpy as np
 
 class RandomByApproximation:
     """
-    Randon sampling from normal distribution using method of approximations.
+    Random sampling from normal distribution using method of approximations.
 
     Parameters
     ----------
     k : Int
-        Depth of approximation, higher k closer result to the real
+        Depth of approximation, higher k closer result to the true distribution
     mean : Float
         Mean (mu) - center of Normal distribution
     std: Float
