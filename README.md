@@ -10,3 +10,9 @@ Generating random samples:
 ---
 * Quadratic congruent random number generator
 * Freedman–Diaconis rule
+---
+Phylogenetic/
+* Fixation Index
+* Extended Haplotype Homozygosity
+* Demographic history using skyline method
+* Wright-Fisher model
