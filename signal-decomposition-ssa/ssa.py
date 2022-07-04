@@ -81,7 +81,7 @@ class SSA:
 
             self.decomposition[:, i] = component[:self.data_size // self.step]
 
-    def reconstruct(self, indices=None):
+    def reconstruct(self):
         # Reconstructs the time series from components, using N top components
 
         reconstructed_signal = self.decomposition[:, :self.n_keep].sum(axis=1).squeeze().tolist()
